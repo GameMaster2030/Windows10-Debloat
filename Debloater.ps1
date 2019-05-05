@@ -17,7 +17,7 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 
 #no errors throughout
 $ErrorActionPreference = 'silentlycontinue'
-
+./Select-MenuItem.ps1
 $DebloatFolder = "C:\Temp\Windows10Debloater"
 If (Test-Path $DebloatFolder) {
     Write-Output "$DebloatFolder exists. Skipping."
